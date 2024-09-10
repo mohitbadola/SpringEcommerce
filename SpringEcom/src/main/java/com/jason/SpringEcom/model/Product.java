@@ -27,4 +27,8 @@ public class Product {
     private Date releaseDate;
     private boolean productAvailability;
     private int stockQuantity;
+
+    public Product(int id) {
+        this.id = id;
+    }
 }
